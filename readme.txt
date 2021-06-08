@@ -1,24 +1,15 @@
+运行环境:
+GeForce RTX 3090	24 GB
+AMD EPYC 7302  64核
+内存 512G
+
 #############################
 #B题-岩石样本智能识别
 #############################
-
-第一步:对图片进行分类
-image_classify.ipynb
+可能出现bug,检测一下文件路径吧.
 
 
-第二步:图像等分切割为9份,扩充数据集
-images_spilt_0.2ver.ipynb
-
-
-第三步:标签编码,增加五折交叉验证fold
-LabelEncoder_0.2ver.ipynb
-
-
-第四步:训练
-rock_classify_0.2version.ipynb
-
-
-#预备等完整训练集出来后,用云平台算力进行
+最后的f1分数大概在0.96左右.
 
 
 
@@ -26,10 +17,7 @@ rock_classify_0.2version.ipynb
 #含油量
 ############################
 
-oil_ratio.ipynb
+转换成HSV颜色空间进行像素点统计,做的不是很理的就不上传了.
 
 
 
-里面有两种方法,但是都还未完成.
-
-knn和opencv方法
